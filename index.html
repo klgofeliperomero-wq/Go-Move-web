@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Go Move — Kinesiología a Domicilio</title>
+  <meta name="description" content="Kinesiología y movimiento a domicilio en Ñuble. Sesiones personalizadas, recoveries y programas de fuerza. Agenda por WhatsApp o compra tu pack.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
+  <!-- OG -->
+  <meta property="og:title" content="Go Move — Kinesiología a Domicilio">
+  <meta property="og:description" content="Nos movemos hasta tu casa. Reserva por WhatsApp o compra tu pack.">
+  <meta property="og:image" content="assets/og-cover.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Go Move — Kinesiología a Domicilio",
+    "areaServed":"Región de Ñuble, Chile",
+    "telephone":"+56984200185",
+    "email":"kinepromesasñuble@gmail.com",
+    "sameAs":["https://instagram.com/piperomeroalegria"],
+    "priceRange":"$$",
+    "address":{"addressLocality":"Chillán","addressCountry":"CL"},
+    "openingHoursSpecification":[{"dayOfWeek":[
+      "Monday","Tuesday","Wednesday","Thursday","Friday"
+    ],"opens":"10:00","closes":"18:00"}]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <img src="assets/logo-gomove.png" alt="Go Move" class="brand__logo">
+        <span class="brand__text">Go Move</span>
+      </a>
+      <nav class="nav">
+        <button id="navToggle" class="nav__toggle" aria-expanded="false">Menú</button>
+        <ul id="navMenu" class="nav__menu">
+          <li><a href="#domicilio" class="badge">A domicilio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#calculadora">Costo por km</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><button id="themeToggle" class="chip">☀︎/🌙</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1>Kinesiología a domicilio, <span class="grad">simple y profesional</span></h1>
+          <p>Llegamos a tu casa con camilla, bandas y kettlebells. Sesiones 45–60 min para bajar dolor, mejorar movilidad y construir fuerza.</p>
+          <div class="cta">
+            <a class="btn btn--brand" href="https://wa.me/56984200185?text=Hola%20Go%20Move,%20quiero%20agendar%20una%20sesi%C3%B3n%20a%20domicilio" target="_blank" rel="noopener">Mensaje directo (WhatsApp)</a>
+            <a class="btn btn--ghost" href="https://ig.me/m/piperomeroalegria" target="_blank" rel="noopener">Mensaje directo (Instagram)</a>
+            <a class="btn btn--alt" id="btnEncuadrado" href="#">Agendar en Encuadrado</a>
+          </div>
+          <ul class="trust">
+            <li>Atención 1:1</li>
+            <li>Educación + seguimiento</li>
+            <li>MovNat y hábitos saludables</li>
+          </ul>
+        </div>
+        <div class="hero__media" aria-hidden="true">
+          <img src="assets/hero-gomove.jpg" class="hero__img" alt="Atención Go Move a domicilio">
+        </div>
+      </div>
+    </section>
+
+    <section id="domicilio" class="feature">
+      <div class="container feature__grid">
+        <div class="feature__media">
+          <img src="assets/home-visit.jpg" class="feature__img" alt="Kinesiología a domicilio en Chillán">
+        </div>
+        <div class="feature__copy">
+          <h2>Especialistas en <span class="grad">atenciones a domicilio</span></h2>
+          <p>Evaluación funcional, intervención y plan claro para moverte sin dolor. Ideal para adultos mayores, post‑lesiones o si optimizas tiempo.</p>
+          <ul class="checklist">
+            <li>Evaluación y objetivos</li>
+            <li>Recovery guiado: movilidad + respiración</li>
+            <li>Fuerza con implementos portátiles</li>
+            <li>Hábitos: sueño, nutrición y tareas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="cards container">
+      <h2>Servicios</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Kinesiología 1:1</h3>
+          <p>Sesión personalizada 45–60 min. Plan simple y progresivo.</p>
+        </article>
+        <article class="card">
+          <h3>Recovery en casa</h3>
+          <p>Movilidad + respiración + liberación guiada. Ideal pre/post competencia.</p>
+        </article>
+        <article class="card">
+          <h3>Plan online</h3>
+          <p>Progresiones semanales + soporte por WhatsApp.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="precios" class="pricing">
+      <div class="container">
+        <h2>Precios claros</h2>
+        <div class="pricing__wrap">
+          <div class="price">
+            <h3>Sesión a domicilio</h3>
+            <p class="price__value">$23.000 <span>CLP</span></p>
+            <p class="price__note">+ $107 por kilómetro (ida y vuelta)</p>
+            <ul>
+              <li>45–60 minutos</li>
+              <li>Camilla + implementos</li>
+              <li>Plan y tareas post sesión</li>
+            </ul>
+            <div class="buy">
+              <a class="btn btn--brand" href="https://wa.me/56984200185?text=Hola%20Go%20Move,%20quiero%20agendar%20una%20sesi%C3%B3n%20a%20domicilio" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+              <a class="btn btn--ghost buy-btn" data-link-mercadopago="#" title="Pega tu link de pago">Comprar ahora</a>
+            </div>
+          </div>
+          <div class="price">
+            <h3>Pack 4 sesiones</h3>
+            <p class="price__value">$88.000 <span>CLP</span></p>
+            <p class="price__note">Ahorra y consolida el hábito</p>
+            <ul>
+              <li>Plan progresivo</li>
+              <li>Seguimiento por WhatsApp</li>
+              <li>Educación en hábitos</li>
+            </ul>
+            <div class="buy">
+              <a class="btn btn--brand buy-btn" data-link-mercadopago="#" title="Pega tu link de pago">Comprar pack</a>
+              <a class="btn btn--alt" href="#" id="btnEncuadrado2">Agendar en Encuadrado</a>
+            </div>
+          </div>
+          <div class="price">
+            <h3>Pack 10 sesiones</h3>
+            <p class="price__value">$230.000 <span>CLP</span></p>
+            <p class="price__note">Mejor precio por sesión</p>
+            <ul>
+              <li>10 sesiones a domicilio</li>
+              <li>Plan, tareas y seguimiento</li>
+              <li>Boleta electrónica</li>
+            </ul>
+            <div class="buy">
+              <a class="btn btn--brand buy-btn" data-link-mercadopago="#" title="Pega tu link de pago">Comprar pack</a>
+              <a class="btn btn--ghost" href="mailto:kinepromesasñuble@gmail.com?subject=Consulta%20Pack%2010%20Go%20Move">Consultar por correo</a>
+            </div>
+          </div>
+        </div>
+        <details class="smallprint">
+          <summary>Condiciones</summary>
+          <ul>
+            <li>Radio principal: Chillán y alrededores.</li>
+            <li>El costo por km se calcula ida y vuelta desde el punto de partida.</li>
+            <li>Se emite boleta electrónica.</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section id="calculadora" class="calc">
+      <div class="container">
+        <h2>Calcula tu costo por km</h2>
+        <form class="calc__form" onsubmit="return calcKM(event)">
+          <label for="distancia">Distancia total (solo ida) en km</label>
+          <input id="distancia" type="number" min="0" step="0.1" placeholder="Ej: 8.5" required>
+          <div class="calc__row">
+            <label for="sesionBase">Valor sesión base (CLP)</label>
+            <input id="sesionBase" type="number" value="23000">
+          </div>
+          <div class="calc__row">
+            <label for="valorKM">Valor por km (CLP)</label>
+            <input id="valorKM" type="number" value="107">
+          </div>
+          <button class="btn btn--brand" type="submit">Calcular total</button>
+        </form>
+        <output id="calcSalida" class="calc__out" for="distancia sesionBase valorKM"></output>
+        <p class="hint">* Considera ida y vuelta: multiplicamos por 2 la distancia.</p>
+      </div>
+    </section>
+
+    <section id="lead" class="lead container">
+      <h2>Recibe tips semanales de movilidad y fuerza</h2>
+      <form class="lead__form" onsubmit="return leadCapture(event)">
+        <input id="leadEmail" type="email" placeholder="Tu correo" required>
+        <button class="btn btn--alt" type="submit">Quiero recibirlos</button>
+      </form>
+      <p class="small">Solo contenido útil. Puedes darte de baja cuando quieras.</p>
+    </section>
+
+    <section id="faq" class="faq container">
+      <h2>Preguntas frecuentes</h2>
+      <details>
+        <summary>¿Atienden adultos mayores?</summary>
+        <p>Sí. Adaptamos tiempos, intensidad y tareas para objetivos cotidianos y autonomía.</p>
+      </details>
+      <details>
+        <summary>¿Traen camilla y materiales?</summary>
+        <p>Sí. Camilla, bandas y kettlebells. Solo necesitamos un espacio libre y ventilado.</p>
+      </details>
+      <details>
+        <summary>¿Cómo pago?</summary>
+        <p>Puedes comprar con link (MercadoPago/Encuadrado) o transferir. Se emite boleta electrónica.</p>
+      </details>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container contact__grid">
+        <div>
+          <h2>Agenda tu sesión</h2>
+          <p>Resolvemos dudas por WhatsApp. También puedes escribir por Instagram o correo.</p>
+          <div class="cta">
+            <a class="btn btn--brand" href="https://wa.me/56984200185?text=Hola%20Go%20Move,%20quiero%20agendar%20una%20sesi%C3%B3n%20a%20domicilio" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--ghost" href="https://ig.me/m/piperomeroalegria" target="_blank" rel="noopener">Instagram DM</a>
+            <a class="btn btn--alt" href="mailto:kinepromesasñuble@gmail.com?subject=Agendar%20Go%20Move">Correo</a>
+          </div>
+          <ul class="contact__list">
+            <li><strong>Tel:</strong> +56 9 8420 0185</li>
+            <li><strong>Email:</strong> kinepromesasñuble@gmail.com</li>
+            <li><strong>Instagram:</strong> @piperomeroalegria</li>
+          </ul>
+        </div>
+        <form class="mini-form" onsubmit="return sendWhatsApp(event)" aria-label="Formulario de contacto rápido">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" required placeholder="Tu nombre">
+          <label for="sector">Sector / comuna</label>
+          <input id="sector" type="text" required placeholder="Ej: Chillán — Sargento Aldea">
+          <label for="motivo">Motivo</label>
+          <textarea id="motivo" rows="3" required placeholder="Ej: dolor lumbar, esguince, recuperación"></textarea>
+          <button class="btn btn--brand" type="submit">Enviar por WhatsApp</button>
+          <p class="form-note">Usamos WhatsApp para coordinar más rápido.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Go Move — Kinesiología y Movimiento</p>
+      <a href="#home" class="backtop">↑</a>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile bar -->
+  <div class="sticky">
+    <a class="sticky__btn" href="https://wa.me/56984200185?text=Hola%20Go%20Move,%20quiero%20agendar%20una%20sesi%C3%B3n%20a%20domicilio" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="sticky__btn" href="#" id="stickyEncuadrado">Encuadrado</a>
+    <a class="sticky__btn buy-btn" data-link-mercadopago="#">Comprar</a>
+  </div>
+
+  <!-- Floating WhatsApp -->
+  <a class="fab" href="https://wa.me/56984200185?text=Hola%20Go%20Move,%20quiero%20agendar%20una%20sesi%C3%B3n%20a%20domicilio" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+  <script>
+    const ENCUADRADO_URL = "https://encuadrado.com/tu-perfil-gomove"; // ← pega aquí tu enlace real
+  </script>
+  <script src="script.js" defer></script>
+</body>
+</html>
